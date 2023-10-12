@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+header.dark, div.dark {
+  background-color: #111729;
+  color: #FFFFFF;
+}
+
+h1.dark, span.dark {
+  color: #FFFFFF;
+}
+
+nav.dark {
+  background-color: #223344;
+}
+a:active.dark {
+  color: #FFFFFF;
+}
